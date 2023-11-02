@@ -8,14 +8,45 @@
 }
 
 /* General Styling Start */
+body {
+    background-color: #e7e4e4;
+}
+
 .mobile {
     display: none;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2.25rem;
+    color:#4A4A4A;
+    font-family: "Roboto";
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.content h3 {
+    color:#4a4a4a;
+    font-size: 1rem;
+    font-family: "Roboto";
+    font-weight: 300;
 }
 /* General Styling End */
 
 /* =========== Header Styling Start =========== */
 
 /* Navigation Styling Start */
+header {
+    background-color: #ffffff;
+}
+
 header .content {
     height: 5.3125rem;
     display: flex;
@@ -59,6 +90,10 @@ header .content {
 }
 /* Navigation Styling End */
 
+/* =========== Header Styling End =========== */
+
+/* =========== Main Content Styling Start =========== */
+
 /* Sign Up Styling Start */
 .banner {
     padding: 10.625rem 50% 10.625rem 6.25rem;
@@ -66,22 +101,17 @@ header .content {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-bottom: 4rem;
 }
 
-#sign-up-cta .center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
+#sign-up-cta {
     background-color: #9dc20a;
     color: #ffffff;
     border: 1px solid #979797;
     border-radius: 4px;
 }
 
-.center .header {
+.content .header {
     padding-top: 2rem;
     padding-bottom: 0.75rem;
 }
@@ -130,9 +160,47 @@ header .content {
 }
 /* Sign Up Styling End */
 
-/* =========== Header Styling End =========== */
+/* Features Styling Start */
+#features-section {
+    display: flex;
+    justify-content: center;
+    gap: 2.375rem;
+    margin-bottom: 2.875rem;
+}
 
-/* Media Query Start */
+.feature {
+    height: 39.6875rem;
+    width: 39.6875rem;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.center .image-container {
+    padding: 2rem 2rem 2.5rem 2rem;
+}
+
+.center .image-container img {
+    width: 95%;
+    height: 65%;
+}
+
+.center .content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.center .content h2 {
+    margin-bottom: 0.5rem;
+}
+
+.center .content h3 {
+    line-height: 1.2;
+}
+/* Features Styling End */
+
+/* =========== Main Content Styling End =========== */
+
+/* =========== Media Query Start =========== */
 
 /* Tablet Landscape */
 @media only screen and (min-width: 1024px) {
@@ -148,4 +216,4 @@ header .content {
 @media only screen and (min-width: 480px) {
 
 }
-/* Media Query End */
+/* =========== Media Query End =========== */
