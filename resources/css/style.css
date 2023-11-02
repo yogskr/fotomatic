@@ -13,8 +13,10 @@
 }
 /* General Styling End */
 
-/* Header Styling Start */
-.content {
+/* =========== Header Styling Start =========== */
+
+/* Navigation Styling Start */
+header .content {
     height: 5.3125rem;
     display: flex;
     align-items: center;
@@ -55,7 +57,80 @@
     width: 1.2rem;
     height: auto;
 }
-/* Header Styling End */
+/* Navigation Styling End */
+
+/* Sign Up Styling Start */
+.banner {
+    padding: 10.625rem 50% 10.625rem 6.25rem;
+    background-image: url("../images/banner-landingpage.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#sign-up-cta .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-color: #9dc20a;
+    color: #ffffff;
+    border: 1px solid #979797;
+    border-radius: 4px;
+}
+
+.center .header {
+    padding-top: 2rem;
+    padding-bottom: 0.75rem;
+}
+
+.cursive {
+    font-family: "Damion";
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.striking {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 3.125rem;
+}
+
+.email {
+    padding: 0 5rem 3.5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.email span {
+    font-size: 1.25rem;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.email .button {
+    margin-top: 1.625rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.4;
+    background-color: #4a4a4a;
+    height: 4rem;
+    width: 25.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+/* Sign Up Styling End */
+
+/* =========== Header Styling End =========== */
 
 /* Media Query Start */
 
